@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Resume</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px 60px;
+            color: #111;
+            font-size: 14px;
+            line-height: 1.35;
+        }
+
+        .resume {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        /* ================= HEADER ================= */
+
+        .header {
+            position: relative;
+            text-align: center;
+            margin-bottom: 10px;
+            min-height: 105px;
+        }
+
+        .name {
+            color: #1769aa;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+
+        .contact {
+            font-size: 13px;
+        }
+
+        .contact a {
+            color: #0000ee;
+            text-decoration: none;
+        }
+
+        /* Profile Photo */
+
+        .profile-photo {
+    position: absolute;
+    top: 0;
+    right: -20px;
+    width: 80px;
+    height: 100px;
+    object-fit: cover;
+}
+
+        /* ================= SECTIONS ================= */
+
+        .section-title {
+            color: #1769aa;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 14px;
+            margin-bottom: 7px;
+        }
+
+
+        /* ================= EDUCATION ================= */
+
+        .education-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+
+        .education-left {
+            flex: 1;
+        }
+
+        .education-year {
+            width: 120px;
+            text-align: right;
+        }
+
+
+        /* ================= PROJECTS / EXPERIENCE ================= */
+
+        .item {
+            margin-bottom: 9px;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .item-title {
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .date {
+            text-align: right;
+            white-space: nowrap;
+        }
+
+        .sub-title {
+            margin-top: 2px;
+        }
+
+        ul {
+            margin-top: 4px;
+            margin-bottom: 5px;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 3px;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+
+        /* ================= SKILLS ================= */
+
+        .skills-list {
+            margin-top: 3px;
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+<div class="resume">
+
+
+    <!-- ================= HEADER ================= -->
+
+    <div class="header">
+
+        <!-- PHOTO -->
+        <img src="My photo.jpg" alt="Profile Photo" class="profile-photo">
+
+
+        <!-- NAME -->
+
+        <div class="name">
+            Lakhan Kumar
+        </div>
+
+
+        <!-- CONTACT DETAILS -->
+
+        <div class="contact">
+
+            lakhanthakur694@gmail.com |
+
+            +91- 8755668654 |
+
+            <a href="https://www.linkedin.com/in/lakhan-thakur-023b8a332/"
+               target="_blank">
+                LinkedIn
+            </a> |
+
+            <a href="https://github.com/lakhnthkr"
+               target="_blank">
+                GitHub
+            </a> |
+
+            <a href="https://leetcode.com/u/lakhan_thakur-123/"
+               target="_blank">
+                LeetCode
+            </a> |
+
+            Mathura, Uttar Pradesh
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================= EDUCATION ================= -->
+
+    <div class="section-title">
+        EDUCATION
+    </div>
+
+
+    <!-- B.Tech -->
+
+    <div class="education-item">
+
+        <div class="education-left">
+
+            <span class="bold">
+                Bachelor of Technology in Computer Science & Engineering
+            </span>,
+
+            GLA University, Mathura with
+
+            <span class="bold">
+                71.3 CPI
+            </span>
+
+        </div>
+
+        <div class="education-year">
+            2024 – 2026
+        </div>
+
+    </div>
+
+
+    <!-- Intermediate -->
+
+    <div class="education-item">
+
+        <div class="education-left">
+
+            <span class="bold">
+                Intermediate
+            </span>,
+
+            Pt. Keshiram Ishwari Prasad Inter College,
+            UP Board, Mathura with
+
+            <span class="bold">
+                85.78 %
+            </span>
+
+        </div>
+
+        <div class="education-year">
+            2023-2024
+        </div>
+
+    </div>
+
+
+    <!-- High School -->
+
+    <div class="education-item">
+
+        <div class="education-left">
+
+            <span class="bold">
+                High School
+            </span>,
+
+            Pt. Keshiram Ishwari Prasad Inter College,
+            UP Board, Mathura with
+
+            <span class="bold">
+                79.6 %
+            </span>
+
+        </div>
+
+        <div class="education-year">
+            2021-2022
+        </div>
+
+    </div>
+
+
+
+    <!-- ================= PROFESSIONAL EXPERIENCE ================= -->
+
+    <div class="section-title">
+        PROFESSIONAL EXPERIENCE
+    </div>
+
+
+    <div class="item">
+
+        <div class="item-header">
+
+            <div class="item-title">
+                Academic / Cloud Computing Projects
+            </div>
+
+            <div class="date">
+                
+            </div>
+
+        </div>
+
+
+        <div class="sub-title">
+            Cloud Computing & DevOps
+        </div>
+
+
+        <ul>
+
+            <li>
+                Worked with AWS cloud services including
+                <span class="bold">
+                    EC2, S3, IAM, EBS and VPC
+                </span>.
+            </li>
+
+            <li>
+                Performed practical cloud deployments including
+                static website hosting, virtual networks and
+                server configuration.
+            </li>
+
+        </ul>
+
+    </div>
+
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <div class="section-title">
+        PROJECTS
+    </div>
+
+
+
+    <!-- PROJECT 1 -->
+
+    <div class="item">
+
+        <div class="item-header">
+
+            <div class="item-title">
+                Secure File Sharing System – End-to-End Encryption
+            </div>
+
+            <div class="date">
+                Academic Project
+
+            </div>
+
+        </div>
+
+
+        <div class="sub-title">
+            Team Project | Cloud & Security
+        </div>
+
+
+        <ul>
+
+            <li>
+                Developed a secure file-sharing system using
+                <span class="bold">
+                    AES-256-GCM
+                </span>
+                for file encryption and decryption.
+            </li>
+
+            <li>
+                Used
+                <span class="bold">
+                    PBKDF2 with SHA-256
+                </span>
+                for secure password-based key derivation.
+            </li>
+
+            <li>
+                Used
+                <span class="bold">
+                    Amazon S3
+                </span>
+                for secure cloud file storage and
+                <span class="bold">
+                    IAM
+                </span>
+                for access control.
+            </li>
+
+            <li>
+                Used
+                <span class="bold">
+                    SQL
+                </span>
+                for maintaining user-related information and
+                <span class="bold">
+                    JWT
+                </span>
+                for authentication.
+            </li>
+
+            <li>
+                Worked on testing and debugging to identify and fix
+                application and security-related issues.
+            </li>
+
+        </ul>
+
+    </div>
+
+
+
+    <!-- PROJECT 2 -->
+
+    <div class="item">
+
+        <div class="item-header">
+
+            <div class="item-title">
+                AWS Cloud Computing Projects
+            </div>
+
+            <div class="date">
+                Academic Projects
+            </div>
+
+        </div>
+
+
+        <div class="sub-title">
+            AWS Cloud Computing
+        </div>
+
+
+        <ul>
+
+            <li>
+                Created and configured AWS resources including
+                <span class="bold">
+                    EC2, S3, EBS, IAM and VPC
+                </span>.
+            </li>
+
+            <li>
+                Hosted a static website using
+                <span class="bold">
+                    Amazon S3
+                </span>.
+            </li>
+
+            <li>
+                Created VPC infrastructure with
+                <span class="bold">
+                    subnets, route tables and Internet Gateway
+                </span>.
+            </li>
+
+            <li>
+                Practiced cloud security using IAM users,
+                policies, security groups and access permissions.
+            </li>
+
+        </ul>
+
+    </div>
+
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <div class="section-title">
+        SKILLS
+    </div>
+
+
+    <ul class="skills-list">
+
+        <li>
+            <span class="bold">
+                Programming Languages:
+            </span>
+
+            Java, Python, C
+        </li>
+
+
+        <li>
+            <span class="bold">
+                DSA:
+            </span>
+
+            Data Structures & Algorithms, Arrays, Strings,
+            LinkedList, Stack, Queue, Recursion, HashMap,
+            Sliding Window, Two Pointers
+        </li>
+
+
+        <li>
+            <span class="bold">
+                Web Technologies:
+            </span>
+
+            HTML, CSS, JavaScript
+        </li>
+
+
+        <li>
+            <span class="bold">
+                Cloud:
+            </span>
+
+            AWS, EC2, S3, IAM, EBS, VPC, CloudFront
+        </li>
+
+
+        <li>
+            <span class="bold">
+                Database:
+            </span>
+
+            SQL, DBMS
+        </li>
+
+
+        <li>
+            <span class="bold">
+                Tools:
+            </span>
+
+            Git, GitHub, Git Bash, VS Code
+        </li>
+
+
+        <li>
+            <span class="bold">
+                Soft Skills:
+            </span>
+
+            Problem Solving, Teamwork, Time Management
+        </li>
+
+    </ul>
+
+
+
+    <!-- ================= ACHIEVEMENTS / CERTIFICATION ================= -->
+
+    <div class="section-title">
+        ACHIEVEMENTS / CERTIFICATION
+    </div>
+
+
+    <ul>
+
+        <li>
+            Completed
+            <span class="bold">
+                Oracle Race to Certification
+            </span>.
+        </li>
+
+
+        <li>
+            Completed
+            <span class="bold">
+                NPTEL Software Engineering
+            </span>
+            course.
+        </li>
+
+
+        <li>
+            Practicing Data Structures and Algorithms using
+            <span class="bold">
+                Java
+            </span>.
+        </li>
+
+
+        <li>
+            Hands-on experience with AWS through
+            <span class="bold">
+                Cloud Computing & Virtualization
+            </span>
+            laboratory projects.
+        </li>
+
+    </ul>
+
+
+</div>
+
+</body>
+
+</html>
