@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+}
+
+nav a {
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    min-height: 250px;
+    padding: 40px;
+    border-bottom: 3px solid white;
+}
+
+section h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+#forest {
+    background: linear-gradient(to right, lightgreen, green);
+}
+
+#water {
+    background: radial-gradient(circle, lightblue, blue);
+    background-attachment: fixed;
+}
+
+#mountain {
+    background: linear-gradient(to right, gray, white);
+    background-attachment: fixed;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+}

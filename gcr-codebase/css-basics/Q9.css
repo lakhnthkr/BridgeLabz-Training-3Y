@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Georgia, serif;
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+    column-span: all;
+    background-color: navy;
+    color: white;
+    padding: 20px;
+}
+
+.news {
+    column-count: 3;
+    column-gap: 30px;
+    padding: 20px;
+    background-color: white;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.news img {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 0 15px 10px 0;
+}

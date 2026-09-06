@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 250px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px gray;
+}
+
+.card h2 {
+    color: navy;
+}
+
+.card p {
+    line-height: 1.5;
+}
+
+.popular {
+    background-color: lightyellow;
+    border: 3px solid orange;
+}
