@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    width: 220px;
+    min-height: 250px;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid gray;
+    transition: 0.3s;
+    animation: show 1s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.popular {
+    background-color: lightyellow;
+    transform: scale(1.05);
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .plans {
+        flex-direction: column;
+    }
+}
