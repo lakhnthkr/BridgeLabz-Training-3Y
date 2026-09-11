@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: navy;
+    color: white;
+}
+
+main {
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+
+section {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linear {
+    background: linear-gradient(to right, lightblue, purple);
+    background-attachment: fixed;
+}
+
+.radial {
+    background: radial-gradient(circle, yellow, orange);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: navy;
+    color: white;
+}

@@ -1,0 +1,54 @@
+/* Attribute selector */
+input[type="text"] {
+    padding: 10px;
+    border: 2px solid gray;
+}
+
+/* Attribute selector for links starting with https */
+a[href^="https"] {
+    color: green;
+}
+
+/* Pseudo-class hover */
+a:hover {
+    color: red;
+}
+
+/* Pseudo-class focus */
+input:focus {
+    border-color: blue;
+}
+
+/* Pseudo-class nth-child */
+.items li:nth-child(2) {
+    background-color: lightblue;
+}
+
+/* Pseudo-element */
+h1::before {
+    content: "★ ";
+}
+
+h1::after {
+    content: " ★";
+}
+
+/* Child combinator */
+.content > p {
+    color: navy;
+}
+
+/* Adjacent sibling combinator */
+.content p + p {
+    background-color: lightyellow;
+}
+
+/* General sibling combinator */
+.content p ~ p {
+    padding: 5px;
+}
+
+/* Descendant combinator */
+.content div p {
+    font-weight: bold;
+}

@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: lightgray;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+section {
+    width: 150px;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    transition: all 0.4s ease;
+}
+
+.rotate:hover {
+    transform: rotate(20deg);
+}
+
+.scale:hover {
+    transform: scale(1.2);
+}
+
+.translate:hover {
+    transform: translateY(-20px);
+}
+
+.skew:hover {
+    transform: skew(15deg);
+}
