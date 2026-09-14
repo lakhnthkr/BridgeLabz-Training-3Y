@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    background-color: lightblue;
+    animation: move 2s ease-in-out infinite alternate;
+}
+
+.ball {
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+    border-radius: 50%;
+    animation: bounce 1s ease-in-out infinite;
+    animation-delay: 0.3s;
+}
+
+h1 {
+    animation: change 2s ease-in-out infinite;
+    animation-iteration-count: 3;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(-30px);
+    }
+
+    to {
+        transform: translateX(30px);
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-50px);
+    }
+}
+
+@keyframes change {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0.3;
+    }
+}

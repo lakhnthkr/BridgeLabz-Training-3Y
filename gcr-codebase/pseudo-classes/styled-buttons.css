@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: lightgray;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 12px 25px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px gray;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.primary {
+    background-color: navy;
+    color: white;
+    border: 2px solid navy;
+}
+
+.secondary {
+    background-color: gray;
+    color: white;
+    border: 2px solid gray;
+}
+
+.outline {
+    background-color: white;
+    color: navy;
+    border: 2px solid navy;
+}
+
+.disabled {
+    background-color: lightgray;
+    color: gray;
+    border: 2px solid gray;
+}
+
+/* Hover effect */
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Active effect */
+button:active {
+    transform: scale(0.95);
+}
+
+/* Focus effect */
+button:focus {
+    outline: 3px solid orange;
+}
+
+/* Disabled effect */
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

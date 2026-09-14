@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, lightblue, white);
+}
+
+main {
+    width: 350px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 15px gray;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input,
+select,
+button {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+button {
+    margin-right: 10px;
+    background-color: navy;
+    color: white;
+}
+
+input:focus,
+select:focus {
+    outline: 2px solid blue;
+}
+
+button:hover {
+    background-color: lightblue;
+    color: black;
+}

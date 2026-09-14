@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: lightgray;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: navy;
+    color: white;
+    box-shadow: 3px 3px 8px gray;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: orange;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 12px gray;
+}
+
+button:active {
+    transform: scale(0.95);
+}

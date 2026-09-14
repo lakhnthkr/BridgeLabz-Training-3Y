@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+section {
+    width: 200px;
+    padding: 20px;
+    background-color: white;
+}
+
+/* :hover example */
+a:hover {
+    color: red;
+}
+
+/* :focus example */
+input:focus {
+    background-color: lightyellow;
+    border: 2px solid blue;
+}
+
+/* :active example */
+button:active {
+    background-color: green;
+    color: white;
+}
+
+/* :nth-child example */
+li:nth-child(2) {
+    background-color: lightblue;
+}
