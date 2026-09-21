@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    flex: 1;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background-color: lightblue;
+}
+
+@media screen and (max-width: 900px) {
+    main {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        flex: 0 0 calc(50% - 10px);
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+}

@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+section {
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+section:hover {
+    background: linear-gradient(to right, navy, purple);
+    color: white;
+}
+
+code {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}

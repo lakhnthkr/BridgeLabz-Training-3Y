@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+section {
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 3px 3px 10px gray;
+}
+
+@media screen and (max-width: 700px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+}
